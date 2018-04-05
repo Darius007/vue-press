@@ -3,7 +3,7 @@
 
     <section>
       <p>
-        Vuepress is a simple template built with Vue JS that displays posts from a WordPress REST API endpoint.
+        Vuepress - stream content from any WordPress REST API endpoint.
       </p>
     </section>
 
