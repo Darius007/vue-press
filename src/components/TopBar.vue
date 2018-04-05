@@ -12,7 +12,7 @@
 
     <div>
       <p>
-        Currently presenting content from <a :href="splitEndpoint[2]">{{ splitEndpoint[2] }}</a>.
+        Currently streaming content from <a :href="sourceURL">{{ sourceName[2] }}</a>.
       </p>
 
       <button @click="showUpdater">
@@ -32,12 +32,16 @@ export default {
 
   computed: {
     splitEndpoint: function () {
-      return this.$store.state.endpoint.split('/')
+      return this.$store.state.endpoint.split('wp-json');
     },
 
     sourceURL: function () {
-      return this.splitEndpoint[0] + this.splitEndpoint[1] + this.splitEndpoint[2];
+      return this.splitEndpoint[0];
+    },
+    sourceName: function () {
+      return this.$store.state.endpoint.split('/');
     }
+    
   },
 
   methods: {
