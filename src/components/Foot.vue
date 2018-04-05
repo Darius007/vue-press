@@ -1,8 +1,8 @@
 <template>
   <footer>
-    Made by <a href="https://macarthur.me">Alex MacArthur</a>
+    Forked by Adrian Meleanca
     //
-    See <a href="https://www.github.com/alexmacarthur/wp-vue">WP Vue on Github</a>.
+    See <a href="https://www.github.com/mobber007/wp-vue">WP Vue on Github</a>.
   </footer>
 </template>
 
