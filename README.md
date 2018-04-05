@@ -1,7 +1,5 @@
 # WP Vue
 
-[![Build Status](https://travis-ci.org/alexmacarthur/wp-vue.svg?branch=master)](https://travis-ci.org/alexmacarthur/wp-vue)
-
 This is just a simple Vue blog that displays posts from a WordPress REST API endpoint. Clone or fork this sucka & rip it apart to suit your own needs. If you have ideas to make it better for everyone else, contribute!
 
 ## Install
@@ -26,7 +24,7 @@ Run `yarn run build`.
 ### Deploy to Netlify
 Netlify is amazing, so if you're in need of somewhere to host your own version of this project, I highly recommend it. 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alexmacarthur/wp-vue)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mobber007/wp-vue)
 
 ## Caching
 Out of the box, WP Vue will locally cache AJAX requests in memory, and then load them as needed. This first happens on page load, when all queried posts on the current and adjacent pages are cached for quick access later. 
@@ -47,4 +45,4 @@ Instead of using the default, this will use whatever endpoint you provide in the
 Please do! See the [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## License
-MIT © [Alex MacArthur](https://macarthur.me)
+MIT © [Adrian Meleanca]
