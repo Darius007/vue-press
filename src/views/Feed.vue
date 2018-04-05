@@ -3,7 +3,7 @@
 
     <section>
       <p>
-        Vuepress - stream content from any WordPress REST API endpoint.
+        Vuepress - stream posts from any WordPress powered website.
       </p>
     </section>
 
