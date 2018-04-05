@@ -1,8 +1,8 @@
 <template>
   <footer>
-    Forked by Adrian Meleanca
+    Adrian Meleanca
     //
-    See <a href="https://www.github.com/mobber007/wp-vue">WP Vue on Github</a>.
+    See <a href="https://www.github.com/mobber007/wp-vue">Vuepress on Github</a>.
   </footer>
 </template>
 
