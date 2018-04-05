@@ -2,7 +2,7 @@
   <footer>
     Adrian Meleanca
     //
-    See <a href="https://www.github.com/mobber007/wp-vue">Vuepress on Github</a>.
+    Vuepress
   </footer>
 </template>
 
